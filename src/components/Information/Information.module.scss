@@ -1,0 +1,11 @@
+.main {
+  @apply mt-10;
+  font-family: arch, sans-serif;
+}
+
+.heading {
+  @apply text-5xl font-extrabold ml-auto mr-auto w-1/2 mb-10;
+  .rightColumn {
+    @apply bg-green-400 float-right flex ml-10;
+  }
+}

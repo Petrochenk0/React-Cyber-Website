@@ -1,0 +1,22 @@
+.main {
+  @apply flex bg-black text-white;
+  height: 100%;
+  font-family: arch, sans-serif;
+  .first__div {
+    padding: 2em;
+    @apply block;
+  }
+  .second__div {
+    @apply block;
+    .disks__image {
+      height: 100%;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+  .li__element {
+    @apply my-10 text-3xl;
+  }
+}

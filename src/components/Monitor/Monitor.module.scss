@@ -1,0 +1,31 @@
+.main {
+  display: block;
+  background-color: #f8f200;
+  height: 120%;
+  width: full;
+  font-family: arch, sans-serif;
+  @apply text-center;
+  .button__more {
+    color: #f8f200;
+    @apply bg-black p-10 text-center font-bold text-3xl m-10;
+  }
+  .first__image {
+    background-size: 'cover';
+    backgroundrepeat: 'no-repeat';
+    height: 400px;
+    @apply ml-auto mr-auto;
+  }
+  .second__image {
+    background-size: 'cover';
+    backgroundrepeat: 'no-repeat';
+    height: 80px;
+    @apply ml-auto mr-auto my-10;
+  }
+  .p__object {
+    border-radius: 10px;
+    @apply text-left text-3xl mr-auto w-5/6 ml-auto my-10 border border-black p-10;
+  }
+  .li__element {
+    @apply text-center text-3xl my-10;
+  }
+}
