@@ -14,7 +14,7 @@
 1. Склонируйте репозиторий:
 
     ```bash
-    git clone https://github.com/Petrochenk0/cyberpunk-site.git
+    git clone https://github.com/Petrochenk0/React-Cyber-Website.git
     ```
 
 2. Перейдите в директорию проекта:
